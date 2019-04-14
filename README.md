@@ -7,6 +7,6 @@ Basic concepts of OS, network, data structure
 # [操作系统](https://github.com/birdsdule/Spring-intern-review/blob/master/concepts/Operating%20System.md)<br>
 # [数据库](https://github.com/birdsdule/Spring-intern-review/blob/master/concepts/Database.md)<br>
 # [算法]<br>
-# [剑指offer]<br>
+# [剑指offer](https://github.com/birdsdule/Spring-intern-review/blob/master/concepts/point_offer)<br>
 # [JAVA相关](https://github.com/birdsdule/Spring-intern-review/blob/master/concepts/java%20concepts.md)<br>
 
