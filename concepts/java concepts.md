@@ -32,3 +32,15 @@ java concepts
   * 初始化：
   * 执行
   * 卸载
+* java String类：
+  * String a = "abc", String b = "abc"(a equal b, a == b) 因为equal比的是值，==比的是地址，都是从常量池里取出abc，所以地址一样(如果常量池中有，就取abc,否则创建abc然后取)
+  * String a = new String("abc") 这里地址就不一样了，因为新建了一个对象，所以a是在堆中创建了一个新的对象
+  * String a = "ab", String b = a+"c" 这里值一样地址不同，因为这里是先用StringBuffer把"ab"和"c"合并成"abc" 然后再用toString(),所以新的变量在堆中。
+* java final关键字:
+  * final 可以用来修饰变量，方法，类
+    * 如果修饰变量，那么这个变量的值要不在初始化中设定，要不在构造方法里设定，如果有多个构造方法，那么每一个构造方法中都得定义
+    * 如果修饰方法，那么这个方法不可以被重写
+    * 如果修饰类，那么这个类不可以被继承
+* 包装类：
+  * int->Integer double->Double
+    * 变成一个对象，可以用于转换进制或者获取最大值最小值等属性
